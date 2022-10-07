@@ -1,0 +1,5 @@
+{% extends 'main/test_sheet.html' %}
+{% load static %}
+
+{% block styles %} <link rel="stylesheet" type="text/css" href={% static 'styles1.css' %} /> {%  endblock %}
+{% block paragraph %} <h1> Different content </h1> p{% endblock %}

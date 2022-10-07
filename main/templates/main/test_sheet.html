@@ -1,8 +1,10 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Test-Site</title>
+    {% block styles %} <link rel="stylesheet" type="text/css" href={% static 'styles.css' %} /> {% endblock %}
 </head>
 <body>
 <h1>Test-Site</h1>
@@ -18,5 +20,18 @@
 
         </tr>
     </table>
+
+{% block paragraph %}<h1>Placeholder</h1>{% endblock %}
+<form>
+    <label>Username</label><br>
+    <input type="text"><br>
+    <input type="submit" value="create">
+</form>
+
+<div>
+
+</div>
+
+
 </body>
 </html>

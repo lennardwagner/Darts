@@ -1,0 +1,25 @@
+body {
+  background-color: lightblue;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+
+form {
+  background-color: lightcoral;
+  text-align: center;
+}
+form label {
+  text-align: center;
+  display: block;
+}
+form input[type=text] {
+  margin-bottom: 4px;
+
+}
+form input[type=submit] {
+  margin-bottom: 1px;
+  background-color: antiquewhite;
+  border-radius: 20px;
+}
